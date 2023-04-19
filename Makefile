@@ -7,7 +7,7 @@ CLEANEXTS := *.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.toc *.lof *.lot *.f
 
 all: $(DOCUMENT).pdf
 
-$(DOCUMENT).pdf: $(DOCUMENT).tex
+$(DOCUMENT).pdf: $(DOCUMENT).tex resume.cls
 	$(LATEXMK) $(LATEXMKFLAGS) $(DOCUMENT)
 
 clean:
