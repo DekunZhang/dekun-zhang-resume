@@ -1,4 +1,4 @@
-DOCUMENT := main
+DOCUMENT := main main_cn
 LATEXMK := latexmk
 LATEXMKFLAGS := -xelatex -shell-escape -synctex=1 -interaction=nonstopmode -file-line-error
 CLEANEXTS := *.aux *.bbl *.bcf *.blg *.log *.out *.run.xml *.toc *.lof *.lot *.fdb_latexmk *.fls

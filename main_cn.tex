@@ -1,0 +1,112 @@
+\documentclass{resume_cn} % Utilizing the custom resume.cls style
+\usepackage{multicol}
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{张德坤} % Your name
+\address{+86 17791767643 \\
+\href{mailto:dekun.zhang.20@ucl.ac.uk}{dekun.zhang.20@ucl.ac.uk} \\ 
+\href{https://www.linkedin.com/in/dekun-zhang/}{Linkedin} \\  %
+\href{https://github.com/DekunZhang/}{GitHub}}
+
+\begin{document}
+
+\begin{rSection}{教育经历}
+
+{\bf BSc Computer Science}, UCL \hfill {2021 - 2024}\\
+第一年: 二等一, 平均分 66\% \\
+第二年: 一等, 平均分 75\% \\
+相关课程: 算法, 计算机架构和并行, 离散数学, 金融中的工程数学, 逻辑学, 面向对象编程, 安全, 软件工程, 编译器, \\
+可计算性和复杂度理论, 数据挖掘与分析, 斯托克斯微积分与不确定性分析, 计算机图形学, 机器学习与视觉计算
+
+{\bf 本科预备课程}, UCL CLIE \hfill {2020 - 2021}\\
+科目: 数学 (93\%), 物理 (93\%), 科学与社会 (79\%), 学术英语 (72\%)\\
+最终成绩: 84\%, Distinction
+
+\end{rSection}
+
+\begin{rSection}{研究经历}
+
+\textbf{暑期研究实习} \hfill 2023年3月至今\\
+UCL Computer Science Department \hfill \textit{London, UK}
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item 与Dr. Sergey Mechtaev一起参与合作研究。正在准备手稿。
+\end{itemize}
+
+\textbf{研究项目} \hfill 2021\\
+UCL Centre for Languages and International Education \hfill \textit{London, UK}\\
+导师: Leah Nicholls, Elizabeth Barnett
+\begin{itemize}
+    \itemsep -3pt {} 
+    \item 调查了光伏发电作为中国主要能源的可能性。
+\end{itemize}
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+% PROJECTS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{项目经历}
+    \vspace{-1.25em}
+    \item \textbf{IFRC综合数据分析系统 (Comprehensive IFRC Data Analysis System)} {设计了一个复杂的系统，以加快从公共数据库中获取、清理、分类、合并、分割和评估历史上高频低影响自然灾害的过程，包括国家灾害损失数据库（DesInventar 和 EM-DAT）。这一倡议的最终成果通过 IFRC GO 平台传播，并作为开源项目在 GitHub 仓库上提供，从而促进了该领域的更多创新和发展。与国际红十字会与红新月会联合会合作。
+    \href{https://students.cs.ucl.ac.uk/2022/group5/index.html}{(从此访问)}}
+    \item \textbf{ESP32-MQTT-WOL} {承担了利用物联网（IoT）设备进行软件研发的工作，以便通过嵌入式设备的MQTT协议在本地区域网络中实现远程开机。}
+    \item \textbf{Shell} {使用Python编程语言和ANTLR解析器生成器构建了一个命令行界面应用程序，具备执行各种命令的能力，包括cd、ls、cut、grep和head。}
+    \item \textbf{tensorflow-conda-env} {制定了一套脚本组合，以简化具备tensorflow GPU功能的conda环境管理。}
+    \item \textbf{ChatGPT代码文档合成器 (chatgpt-docstring-generator)} {精心策划了一份全面指南，旨在帮助生成高质量的代码注释，利用ChatGPT的能力。}
+    \item \textbf{下一代精神病患者的音乐治疗师 (Next-gen music therapist for psychiatric patients)} {该项目在2023年UCL CSS x TechSoc Hackathon期间构思并付诸实施，它包括一个集成传感器和基于人工智能的音乐疗法设计师、一个移动应用程序和一个管理门户网站的可穿戴设备。此外，它还具有一个基于云端的治疗师，能够检测需要紧急医疗救助的患者。}
+    \item \textbf{生物反应器 (Bioreactor)} {使用加热、搅拌和pH子系统制作，并通过RPC协议与ThingsBoard接口连接。使用I2C协议集成了Arduino UNO和ESP32。}
+\end{rSection} 
+
+\begin{rSection}{技能}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    编程语言 & (熟练) Python, Java, C; (熟悉) Haskell, HTML, C++, Shell
+    \\
+    编程技能 & 架构、数据分析、网络爬虫、后端开发
+    \\
+    英语水平 & CEFR C1 等级 (2021) 平均 7, 听力 6.5, 阅读 8, 写作 7, 口语 7
+    \\
+    软件 & Git, GitHub, \LaTeX, Arduino, Microsoft Office, Zotero, XMind, 3D Builder \\
+    & Adobe Photoshop, Audition, Premiere Pro, Illustrator, DaVinci
+    \\
+    硬件 & 3D打印、基本电路设计和实现
+    \\
+    系统操作 & 熟练Vim、SSH、SCP、Nginx、Docker
+    \\
+    网络管理 & 具有以下使用知识 SD-WAN (Wireguard, ZeroTier, SoftEther, n2n), \\ 
+    & FRP(快速反向代理), VLAN, 交换机和路由器操作 (ufw, iptables)\\
+    软实力 & 精通解决问题、批判性思维、压力管理、适应性
+    \end{tabular}
+\end{rSection}
+    
+\begin{rSection}{工作经历}
+    
+    \textbf{学生大使} \hfill 2021年11月 - 2022年8月\\
+    UCL Centre for Languages and International Education \hfill \textit{London, UK}
+    \begin{itemize}
+        \itemsep -3pt {} 
+        \item 帮助潜在学生理解UPC学习的核心内容，并带领全面的校园参观。
+    \end{itemize}
+    
+    \textbf{过渡导师} \hfill 2021年9月 - 2021年12月\\
+    UCL Centre for Languages and International Education \hfill \textit{London, UK}
+    \begin{itemize}
+        \itemsep -3pt {} 
+        \item 在第一学期为新生提供建议、指导和支持。
+    \end{itemize}
+     
+    \textbf{IT经理，总经理助理} \hfill 2021年5月 - 2021年9月\\
+    政达鼎盛财务管理咨询有限公司甘肃分公司 \hfill \textit{Lanzhou, China}
+    \begin{itemize}
+        \itemsep -3pt {} 
+        \item 在公司创立初期，负责采购硬件设备，包括个人电脑、打印机和路由器，并建立了内部网络连接，同时在线上发布职位招聘信息。
+        \item 协助总经理采购办公家具并管理报销事务。
+        \item 解决新员工在办公软件使用方面遇到的困难。
+    \end{itemize}
+    
+\end{rSection} 
+    
+%----------------------------------------------------------------------------------------
+\end{document}
+
